@@ -118,7 +118,7 @@
 
             </div>
 
-            <a href="index.html" class="btn btn-sm btn-primary px-3 d-none d-lg-block">Solicitá tu turno</a>
+            <a type="button" class="btn btn-sm btn-primary px-3 d-none d-lg-block" data-toggle="modal" data-target="#exampleModal" >Recordatorio Vacuna</a>
 
         </nav>
     </div>
@@ -192,7 +192,35 @@
     </div>
     <!-- Services End -->
 
-
+  <!-- Recordatorio Vacuna -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title text-primary" id="exampleModalLabel">VACUNAS IMPORTANTES</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h5 class="text-secondary">Vacuna contra la Rabia</h5>
+            <p>Generalmente puede ser administrada a partir de los 3-4 meses de edad.</p>
+            <hr>
+            <h5 class="text-secondary">Vacuna contra el Moquillo </h5> 
+            <p>Se suele administrar a las 6-8 semanas de edad, con refuerzos cada 2-4 semanas hasta las 16 semanas.</p>
+            <hr>
+            <h5 class="text-secondary">Vacuna contra el Parvovirus</h5>
+            <p>Se administra típicamente a las 6-8 semanas de edad, con refuerzos cada 2-4 semanas hasta las 16 semanas.</p>
+            <hr>
+            <h5 class="text-secondary">Vacuna contra la Leptospirosis</h5>
+            <p>Se puede administrar a partir de las 8-10 semanas de edad.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white mt-1 py-5 px-sm-3 px-md-5">
